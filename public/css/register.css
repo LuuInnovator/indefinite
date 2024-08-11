@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to right, #ff6f61, #de6262);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px; /* Chiều rộng tối đa của form */
+    box-sizing: border-box; /* Đảm bảo padding không làm rộng hơn width */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    color: #555;
+    font-size: 0.9rem; /* Kích thước chữ label */
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Đảm bảo padding không làm rộng hơn width */
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.8rem;
+    background: #ff6f61;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #e55d50;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  a {
+    color: #ff6f61;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
